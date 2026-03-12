@@ -1,0 +1,1 @@
+# futuro-promotora-log-sms
