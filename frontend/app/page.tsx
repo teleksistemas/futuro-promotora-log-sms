@@ -56,14 +56,10 @@ export default function SMSLogsPage() {
     setError(null)
 
     try {
-      const apiBase = (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000").replace(
-        /\/$/,
-        ""
-      )
+      const apiBase = (process.env.NEXT_PUBLIC_API_URL ?? "").replace(/\/$/, "")
+      const url = `${apiBase || ""}/message-id?phone=${encodeURIComponent(phone.trim())}`
 
-      const response = await fetch(
-        `${apiBase}/message-id?phone=${encodeURIComponent(phone.trim())}`
-      )
+      const response = await fetch(url)
       const data: ApiResponse = await response.json()
 
       if (isErrorResponse(data)) {
@@ -73,7 +69,7 @@ export default function SMSLogsPage() {
       }
     } catch (err) {
       setError({
-        error: "Erro ao conectar com a API. Verifique se o servidor está rodando.",
+        error: "Erro ao conectar. Verifique se o serviço está rodando.",
         scanned: 0,
         lastSkip: 0,
       })
