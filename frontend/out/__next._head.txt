@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[64381,["/_next/static/chunks/dcc825c9b7a5f75d.js"],"ViewportBoundary"]
+3:I[64381,["/_next/static/chunks/dcc825c9b7a5f75d.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[12843,["/_next/static/chunks/dcc825c9b7a5f75d.js"],"IconMark"]
+0:{"buildId":"e7tg3Aw_ppEWIsb341v0G","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Consulta Logs SMS"}],["$","meta","1",{"name":"description","content":"Interface para consultar logs de SMS"}],["$","meta","2",{"name":"generator","content":"v0.app"}],["$","link","3",{"rel":"icon","href":"/icon-light-32x32.png","media":"(prefers-color-scheme: light)"}],["$","link","4",{"rel":"icon","href":"/icon-dark-32x32.png","media":"(prefers-color-scheme: dark)"}],["$","link","5",{"rel":"icon","href":"/icon.svg","type":"image/svg+xml"}],["$","link","6",{"rel":"apple-touch-icon","href":"/apple-icon.png"}],["$","$L5","7",{}]]}]}]}],null]}],"loading":null,"isPartial":false}

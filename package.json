@@ -1,0 +1,22 @@
+{
+  "name": "consulta-sms",
+  "version": "1.0.0",
+  "description": "Servi?o para consultar mensagens no BLiP e retornar o ID pelo telefone.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.27.2",
+    "undici": "^6.11.1",
+    "@fastify/static": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.4"
+  }
+}
